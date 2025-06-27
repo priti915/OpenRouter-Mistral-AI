@@ -28,12 +28,12 @@ client = OpenAI(
 #user_input=("How would you prompt GPT to  return an answer in JSON format")
 user_input=input("What are the difference between temperature and top_p in prompt control")
 
-answer = f"""
-consider as a teacher
-you will answer in the 7 - 8 lines
-given answer in a brief and easily language to understand
-{user_input}
-"""
+# answer = f"""
+# consider as a teacher
+# you will answer in the 7 - 8 lines
+# given answer in a brief and easily language to understand
+# {user_input}
+# """
 
 
 
